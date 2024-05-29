@@ -1,0 +1,48 @@
+.table-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  list-style-type: none;
+  border-bottom: 1px solid #cbd5e1;
+  border-right: 1px solid #cbd5e1;
+  border-left: 1px solid #cbd5e1;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.title {
+  font-family: 'Roboto';
+  font-size: 12px;
+  color: #334155;
+  margin: 2px;
+}
+.amount {
+  font-family: 'Roboto';
+  font-size: 12px;
+  color: #334155;
+  margin: 2px;
+}
+.type {
+  font-family: 'Roboto';
+  font-size: 12px;
+  color: #334155;
+  margin: 2px;
+}
+.delete-container {
+  display: flex;
+  flex-direction: row;
+  width: 10%;
+}
+.button {
+  background: transparent;
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
+.image {
+  background: transparent;
+  width: 20px;
+  height: 20px;
+  align-self: center;
+  border: none;
+  outline: none;
+}
